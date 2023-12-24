@@ -51,7 +51,13 @@
   margin-top: 80px;
   flex-direction: row;
 }
-
+.ftr-menu p {
+  margin-top: 20px;
+  color: #505050;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 .ftr-menu h3 {
   color: #1f1f1f;
   font-size: 17px;
@@ -110,12 +116,43 @@
 .ftr-left {
   scale: 1;
   margin-top: 120px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 .item_footer_neil_logo {
   margin-left: 22px;
 }
 .right {
   margin-top: 100px;
-  margin-right: 200px;
+  margin-right: 80px;
+}
+.row-1 h3 {
+  color: #1f1f1f;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+
+.row-2 h3 {
+  color: #1f1f1f;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.row-3 h3 {
+  color: #1f1f1f;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
 }
