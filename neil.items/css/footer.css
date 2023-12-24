@@ -1,0 +1,121 @@
+.Footer {
+  margin-top: -100px;
+  width: 2200px;
+  /* 螢幕顯示100%的時候width是1920px */
+  background-color: #f0f0f0;
+  margin-left: -100px;
+}
+
+.footer {
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+.media {
+  margin-top: 170px;
+  margin-left: -20px;
+  display: flex;
+}
+
+.media a:hover {
+  opacity: 50%;
+  transition-property: all;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.media img {
+  width: 25px;
+  margin-inline: 25px;
+}
+
+.ftr-right {
+  display: flex;
+  color: #505050;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.ftr-menu {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 80px;
+  flex-direction: row;
+}
+
+.ftr-menu h3 {
+  color: #1f1f1f;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
+}
+
+.ftr-menu p {
+  margin-top: 20px;
+  color: #505050;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.row-2 {
+  margin-inline: 130px;
+}
+
+.ftr-menu h3:hover {
+  opacity: 60%;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.ftr-menu p:hover {
+  opacity: 60%;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 140px;
+  justify-content: flex-end;
+  color: #505050;
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.25px;
+}
+
+.copyright p {
+  font-family: "Microsoft JhengHei";
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  color: #505050;
+}
+.ftr-left {
+  scale: 1;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+.item_footer_neil_logo {
+  margin-left: 22px;
+}
+.right {
+  margin-top: 100px;
+  margin-right: 200px;
+}

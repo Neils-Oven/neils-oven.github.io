@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>全部商品</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="./owl.carousel.min.css" rel="stylesheet" />
+    <link href="./css/items.css" rel="stylesheet" />
+    <link href="./css/footer.css" rel="stylesheet" />
+    <link href="./css/header.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="hamburger_space">
+        <span class="material-symbols-outlined" id="close_icon">
+          <img src="./img/homepage_subopen.svg" />
+        </span>
+      </div>
+      <div class="menu_down">
+        <div class="hamburger_content">
+          <div class="hamburger_news">
+            <a href="#"><h1 class="hamburger_newstitle">最新消息</h1></a>
+            <ul class="hamburger_newsli">
+              <li><a href="#">限時優惠</a></li>
+              <li><a href="#">新品上市</a></li>
+              <li><a href="#">商品介紹</a></li>
+              <li><a href="#">全部商品</a></li>
+            </ul>
+          </div>
+          <div class="hamburger_about">
+            <a href="#"><h1 class="hamburger_abouttitle">關於尼爾</h1></a>
+            <ul class="hamburger_aboutli">
+              <li><a href="#">品牌故事</a></li>
+              <li><a href="#">食材介紹</a></li>
+              <li><a href="#">店鋪資訊</a></li>
+            </ul>
+          </div>
+          <div class="hamburger_product">
+            <a href="#"><h1 class="hamburger_producttitle">商品介紹</h1></a>
+            <ul class="hamburger_productli">
+              <li><a href="#">草莓蛋糕</a></li>
+              <li><a href="#">起司蛋糕</a></li>
+              <li><a href="#">尼爾手工餅乾</a></li>
+            </ul>
+            <ul class="hamburger_productli">
+              <li><a href="#">草莓歐雷</a></li>
+              <li><a href="#">加購商品</a></li>
+            </ul>
+          </div>
+          <div class="hamburger_all">
+            <a href="#"><h1 class="hamburger_alltitle">全部商品</h1></a>
+            <ul class="hamburger_allli">
+              <li><a href="#">草莓蛋糕</a></li>
+              <li><a href="#">起司蛋糕</a></li>
+              <li><a href="#">尼爾手工餅乾</a></li>
+            </ul>
+            <ul class="hamburger_allli">
+              <li><a href="#">草莓歐雷</a></li>
+              <li><a href="#">加購商品</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hamburger_carousel">
+          <img src="./img/homepage_videobear.svg" />
+        </div>
+      </div>
+    </div>
+    <!--header -->
+    <div class="homepage_header">
+      <div class="homepage_hamburger">
+        <div class="index">
+          <span class="material-symbols-outlined" id="menu_icon">
+            <img src="./img/header_homepage_submenu.svg"
+          /></span>
+        </div>
+      </div>
+      <div class="homepage_space"></div>
+      <div class="homepage_nav">
+        <ul>
+          <li>
+            <a href="#">最新消息</a>
+          </li>
+          <li>
+            <a href="#">關於尼爾</a>
+          </li>
+          <li>
+            <a href="./index.html"
+              ><img
+                src="./img/header_neil_logo.png"
+                class="item_header_neil_logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#">商品介紹</a>
+          </li>
+          <li>
+            <a href="#">全部商品</a>
+          </li>
+        </ul>
+      </div>
+      <div class="homepage_icons">
+        <div class="homepage_member">
+          <a href="#"
+            ><img src="./img/header_orange_member.svg" />
+            <img src="./img/header_member_icon.svg"
+          /></a>
+        </div>
+        <div class="homepage_shoppingcar">
+          <a href="#"
+            ><img src="./img/headerorange_shopping_cart.svg" />
+            <img src="./img/header_shopping cart_icon.svg"
+          /></a>
+        </div>
+        <div class="homepage_searchbar">
+          <div class="homepage_search">
+            <img src="./img/header_search_icon.svg" />
+            <input
+              class="HomepageSearch_input"
+              type="text"
+              placeholder="搜尋"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news-submenu">
+      <a href="#">商品類別</a>
+      <img src="./img/breadcrumb_circle.png" />
+      <a href="#strw_cake">草莓蛋糕</a>
+      <a href="#che_cake">起司蛋糕</a>
+      <a href="#strw_milk">草莓歐蕾</a>
+      <a href="#cookie">尼爾手工餅乾</a>
+      <a href="#add">加購商品</a>
+    </div>
+    <div class="item_title_all_card_container">
+      <div class="item_all_item_title">
+        <div class="item_puff"><img src="./img/deco_puff.png" /></div>
+        <div class="item_all_item"><img src="./img/全部商品.png" /></div>
+        <div class="item_all_item_eng"><img src="./img/All Items.png" /></div>
+      </div>
+      <div class="item_all_container">
+        <div class="item_strw_cake_area" id="strw_cake">
+          <div class="item_all_card_container">
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/card01_img.png" alt="img01" />
+                  </div>
+                </div>
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>草莓蛋糕</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>粉紅星心派對 </p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$890</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount01')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount01">5</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount01')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="img/item_card_img02.png" alt="img01" />
+                  </div>
+                </div>
+
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>草莓蛋糕</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>魔法精靈的紅寶石園 </p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$860</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount02')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount02">5</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount02')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/item_card_img03.png" alt="img01" />
+                  </div>
+                </div>
+
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>草莓蛋糕</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>草莓絲絨圓舞曲 </p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$900</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount03')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount03">5</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount03')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item_che_area" id="che_cake">
+            <div class="item_all_card_container">
+              <div class="item_all_cards">
+                <div class="item_img_text">
+                  <div class="item_image_div">
+                    <div class="item_img01">
+                      <img src="./img/item_card_img04.png" alt="img01" />
+                    </div>
+                  </div>
+
+                  <div class="item_text">
+                    <div class="item_small">
+                      <p>草莓蛋糕</p>
+                    </div>
+                    <div class="item_big">
+                      <p2>繽紛轉轉魔法舞台 </p2>
+                    </div>
+                    <div class="item_card_price_quality_container">
+                      <div class="item_card_price_style">
+                        <div
+                          class="item_price_twd_position item_price_text_small"
+                        >
+                          <p>TWD</p>
+                        </div>
+                        <div class="item_price item_price_text_big">
+                          <p>$920</p>
+                        </div>
+                      </div>
+                      <div class="item_card_quality_style">
+                        <div class="item_quality_label item_price_text_small">
+                          <p>數量</p>
+                        </div>
+                        <div class="item_card_quantity_line"></div>
+                        <div class="item_carousel-container">
+                          <button
+                            class="item_prev_btn"
+                            onclick="handleDecButtonClick('item_carouselCount04')"
+                          ></button>
+                          <div class="item_carousel-items">
+                            <span id="item_carouselCount04">1</span>
+                          </div>
+                          <button
+                            id="item_next_btn"
+                            onclick="handleIncButtonClick('item_carouselCount04')"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item_shopping_line"></div>
+                    <div class="item_shopping_cart_container">
+                      <button class="item_card_icon">
+                        <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                      </button>
+                      <button class="item_card_buy_button">
+                        <p>立即購買</p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item_all_cards">
+                <div class="item_img_text">
+                  <div class="item_image_div">
+                    <div class="item_img01">
+                      <img src="./img/item_card_img05.png" alt="img01" />
+                    </div>
+                  </div>
+
+                  <div class="item_text">
+                    <div class="item_small">
+                      <p>起司蛋糕</p>
+                    </div>
+                    <div class="item_big">
+                      <p2>誰偷吃了甜滋滋蜂蜜 </p2>
+                    </div>
+                    <div class="item_card_price_quality_container">
+                      <div class="item_card_price_style">
+                        <div
+                          class="item_price_twd_position item_price_text_small"
+                        >
+                          <p>TWD</p>
+                        </div>
+                        <div class="item_price item_price_text_big">
+                          <p>$780</p>
+                        </div>
+                      </div>
+                      <div class="item_card_quality_style">
+                        <div class="item_quality_label item_price_text_small">
+                          <p>數量</p>
+                        </div>
+                        <div class="item_card_quantity_line"></div>
+                        <div class="item_carousel-container">
+                          <button
+                            class="item_prev_btn"
+                            onclick="handleDecButtonClick('item_carouselCount05')"
+                          ></button>
+                          <div class="item_carousel-items">
+                            <span id="item_carouselCount05">1</span>
+                          </div>
+                          <button
+                            id="item_next_btn"
+                            onclick="handleIncButtonClick('item_carouselCount05')"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item_shopping_line"></div>
+                    <div class="item_shopping_cart_container">
+                      <button class="item_card_icon">
+                        <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                      </button>
+                      <button class="item_card_buy_button">
+                        <p>立即購買</p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item_all_cards">
+                <div class="item_img_text">
+                  <div class="item_image_div">
+                    <div class="item_img01">
+                      <img src="./img/item_card_img06.png" alt="img01" />
+                    </div>
+                  </div>
+
+                  <div class="item_text">
+                    <div class="item_small">
+                      <p>起司蛋糕</p>
+                    </div>
+                    <div class="item_big">
+                      <p2>焦心朋友的午後時光 </p2>
+                    </div>
+                    <div class="item_card_price_quality_container">
+                      <div class="item_card_price_style">
+                        <div
+                          class="item_price_twd_position item_price_text_small"
+                        >
+                          <p>TWD</p>
+                        </div>
+                        <div class="item_price item_price_text_big">
+                          <p>$740</p>
+                        </div>
+                      </div>
+                      <div class="item_card_quality_style">
+                        <div class="item_quality_label item_price_text_small">
+                          <p>數量</p>
+                        </div>
+                        <div class="item_card_quantity_line"></div>
+                        <div class="item_carousel-container">
+                          <button
+                            class="item_prev_btn"
+                            onclick="handleDecButtonClick('item_carouselCount06')"
+                          ></button>
+                          <div class="item_carousel-items">
+                            <span id="item_carouselCount06">1</span>
+                          </div>
+                          <button
+                            id="item_next_btn"
+                            onclick="handleIncButtonClick('item_carouselCount06')"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item_shopping_line"></div>
+                    <div class="item_shopping_cart_container">
+                      <button class="item_card_icon">
+                        <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                      </button>
+                      <button class="item_card_buy_button">
+                        <p>立即購買</p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item_strw_milk_area" id="strw_milk">
+            <div class="item_all_card_container">
+              <div class="item_all_cards">
+                <div class="item_img_text">
+                  <div class="item_image_div">
+                    <div class="item_img01">
+                      <img src="./img/item_card_07.png" alt="img01" />
+                    </div>
+                  </div>
+
+                  <div class="item_text">
+                    <div class="item_small">
+                      <p>起司蛋糕</p>
+                    </div>
+                    <div class="item_big">
+                      <p2>尼爾的時光寶盒 </p2>
+                    </div>
+                    <div class="item_card_price_quality_container">
+                      <div class="item_card_price_style">
+                        <div
+                          class="item_price_twd_position item_price_text_small"
+                        >
+                          <p>TWD</p>
+                        </div>
+                        <div class="item_price item_price_text_big">
+                          <p>$760</p>
+                        </div>
+                      </div>
+                      <div class="item_card_quality_style">
+                        <div class="item_quality_label item_price_text_small">
+                          <p>數量</p>
+                        </div>
+                        <div class="item_card_quantity_line"></div>
+                        <div class="item_carousel-container">
+                          <button
+                            class="item_prev_btn"
+                            onclick="handleDecButtonClick('item_carouselCount07')"
+                          ></button>
+                          <div class="item_carousel-items">
+                            <span id="item_carouselCount07">1</span>
+                          </div>
+                          <button
+                            id="item_next_btn"
+                            onclick="handleIncButtonClick('item_carouselCount07')"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item_shopping_line"></div>
+                    <div class="item_shopping_cart_container">
+                      <button class="item_card_icon">
+                        <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                      </button>
+                      <button class="item_card_buy_button">
+                        <p>立即購買</p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item_all_cards">
+                <div class="item_img_text">
+                  <div class="item_image_div">
+                    <div class="item_img01">
+                      <img src="./img/item_card_img08.png" alt="img01" />
+                    </div>
+                  </div>
+
+                  <div class="item_text">
+                    <div class="item_small">
+                      <p>草莓歐蕾</p>
+                    </div>
+                    <div class="item_big">
+                      <p2>與森林朋友一起採草莓 </p2>
+                    </div>
+                    <div class="item_card_price_quality_container">
+                      <div class="item_card_price_style">
+                        <div
+                          class="item_price_twd_position item_price_text_small"
+                        >
+                          <p>TWD</p>
+                        </div>
+                        <div class="item_price item_price_text_big">
+                          <p>$120</p>
+                        </div>
+                      </div>
+                      <div class="item_card_quality_style">
+                        <div class="item_quality_label item_price_text_small">
+                          <p>數量</p>
+                        </div>
+                        <div class="item_card_quantity_line"></div>
+                        <div class="item_carousel-container">
+                          <button
+                            class="item_prev_btn"
+                            onclick="handleDecButtonClick('item_carouselCount08')"
+                          ></button>
+                          <div class="item_carousel-items">
+                            <span id="item_carouselCount08">1</span>
+                          </div>
+                          <button
+                            id="item_next_btn"
+                            onclick="handleIncButtonClick('item_carouselCount08')"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item_shopping_line"></div>
+                    <div class="item_shopping_cart_container">
+                      <button class="item_card_icon">
+                        <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                      </button>
+                      <button class="item_card_buy_button">
+                        <p>立即購買</p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item_all_cards">
+                <div class="item_img_text">
+                  <div class="item_image_div">
+                    <div class="item_img01">
+                      <img src="./img/item_card_img09.png" alt="img01" />
+                    </div>
+                  </div>
+
+                  <div class="item_text">
+                    <div class="item_small">
+                      <p>草莓奶昔歐蕾</p>
+                    </div>
+                    <div class="item_big">
+                      <p2>最溫柔的好夢 </p2>
+                    </div>
+                    <div class="item_card_price_quality_container">
+                      <div class="item_card_price_style">
+                        <div
+                          class="item_price_twd_position item_price_text_small"
+                        >
+                          <p>TWD</p>
+                        </div>
+                        <div class="item_price item_price_text_big">
+                          <p>$160</p>
+                        </div>
+                      </div>
+                      <div class="item_card_quality_style">
+                        <div class="item_quality_label item_price_text_small">
+                          <p>數量</p>
+                        </div>
+                        <div class="item_card_quantity_line"></div>
+                        <div class="item_carousel-container">
+                          <button
+                            class="item_prev_btn"
+                            onclick="handleDecButtonClick('item_carouselCount09')"
+                          ></button>
+                          <div class="item_carousel-items">
+                            <span id="item_carouselCount09">1</span>
+                          </div>
+                          <button
+                            id="item_next_btn"
+                            onclick="handleIncButtonClick('item_carouselCount09')"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item_shopping_line"></div>
+                    <div class="item_shopping_cart_container">
+                      <button class="item_card_icon">
+                        <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                      </button>
+                      <button class="item_card_buy_button">
+                        <p>立即購買</p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item_cookie_area" id="cookie">
+          <div class="item_all_card_container">
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/item_card_img10.png" alt="img01" />
+                  </div>
+                </div>
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>尼爾手工餅乾</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>熊愛與你分享 </p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$1080</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount10')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount10">1</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount10')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/item_card_img11.png" alt="img01" />
+                  </div>
+                </div>
+
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>尼爾手工餅乾</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>又是美好的一天 </p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$300</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount11')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount11">1</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount11')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/item_card_img12.png" alt="img01" />
+                  </div>
+                </div>
+
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>加購商品</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>單支蠟燭 </p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$15</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount12')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount12">1</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount12')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item_add_area" id="add">
+          <div class="item_all_card_container">
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/item_card_img13.png" alt="img01" />
+                  </div>
+                </div>
+
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>加購商品</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>蛋糕盤叉</p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$15</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount13')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount13">1</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount13')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/item_caard_img14.png" alt="img01" />
+                  </div>
+                </div>
+
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>加購商品</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>造型蠟燭 </p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$15</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount14')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount14">1</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount14')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item_all_cards">
+              <div class="item_img_text">
+                <div class="item_image_div">
+                  <div class="item_img01">
+                    <img src="./img/item_card_img15.png" alt="img01" />
+                  </div>
+                </div>
+
+                <div class="item_text">
+                  <div class="item_small">
+                    <p>加購商品</p>
+                  </div>
+                  <div class="item_big">
+                    <p2>生日帽</p2>
+                  </div>
+                  <div class="item_card_price_quality_container">
+                    <div class="item_card_price_style">
+                      <div
+                        class="item_price_twd_position item_price_text_small"
+                      >
+                        <p>TWD</p>
+                      </div>
+                      <div class="item_price item_price_text_big">
+                        <p>$15</p>
+                      </div>
+                    </div>
+                    <div class="item_card_quality_style">
+                      <div class="item_quality_label item_price_text_small">
+                        <p>數量</p>
+                      </div>
+                      <div class="item_card_quantity_line"></div>
+                      <div class="item_carousel-container">
+                        <button
+                          class="item_prev_btn"
+                          onclick="handleDecButtonClick('item_carouselCount15')"
+                        ></button>
+                        <div class="item_carousel-items">
+                          <span id="item_carouselCount15">1</span>
+                        </div>
+                        <button
+                          id="item_next_btn"
+                          onclick="handleIncButtonClick('item_carouselCount15')"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item_shopping_line"></div>
+                  <div class="item_shopping_cart_container">
+                    <button class="item_card_icon">
+                      <!-- <img
+                  src="./img/shopping cart_icon.svg"
+                  class="item_card_icon_shoppingcart"
+                /> -->
+                    </button>
+                    <button class="item_card_buy_button">
+                      <p>立即購買</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item_gif_footer">
+      <div class="item_gif">
+        <img src="./img/全部商品.gif" />
+      </div>
+      <div class="Footer">
+        <div class="footer">
+          <div class="ftr-left">
+            <a href="#"
+              ><img
+                src="./img/footer_neil_logo.png"
+                class="item_footer_neil_logo"
+            /></a>
+            <div class="Media">
+              <ul class="media">
+                <li>
+                  <a href="#"
+                    ><img
+                      src="./img/footer_臉書.svg"
+                      id="facebook"
+                      class="facebook"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./img/footer_ig.svg" id="ins" class="ins"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./img/footer_line.svg" id="line" class="line"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="./img/footer_youtube.svg"
+                      id="youtube"
+                      class="youtube"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="right">
+            <div class="ftr-right">
+              <div class="ftr-menu">
+                <div class="row-1">
+                  <a href="#"><h3>最新消息</h3></a>
+                  <a href="#"><p>節慶消息</p></a>
+                  <a href="#"><p>新品上市</p></a>
+                </div>
+                <div class="row-2">
+                  <a href="#"><h3>關於尼爾</h3></a>
+                  <a href="#"><p>品牌故事</p></a>
+                  <a href="#"><p>門市據點</p></a>
+                </div>
+                <div class="row-3">
+                  <a href="#"><h3>全部商品</h3></a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>尼爾蛋糕股份有限公司 統一編號20040614</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item_goTop">
+      <a href="#" class="goTopBtn jq-goTop">
+        <img src="./img/gotop.png" />
+      </a>
+    </div>
+    <script src="./jquery-3.7.1min.js"></script>
+    <script src="./js/header.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function handleDecButtonClick(countId) {
+        const countIdElement = document.getElementById(countId);
+        var count = parseInt(countIdElement.textContent);
+        if (count >= 2) {
+          count--;
+          countIdElement.textContent = count;
+        }
+      }
+
+      function handleIncButtonClick(countId) {
+        const countIdElement = document.getElementById(countId);
+        var count = parseInt(countIdElement.textContent);
+        if (count < 20) {
+          count++;
+          countIdElement.textContent = count;
+        }
+      }
+    </script>
+
+    <script>
+      const lenis = new Lenis();
+
+      lenis.on("scroll", (e) => {
+        console.log(e);
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+
+    <script>
+      $("#menu_icon").click(function () {
+        $(".menu").css("visibility", "visible");
+      });
+      $("#close_icon").click(function () {
+        $(".menu").css("visibility", "hidden");
+      });
+    </script>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "100px",
+        duration: 2000,
+        delay: 0,
+      });
+      ScrollReveal().reveal(".item_all_item_title", {
+        delay: -50,
+        origin: "left",
+      });
+    </script>
+    <!-- go-top_js -->
+    <script>
+      $(".jq-goTop").click(function (e) {
+        e.preventDefault();
+        $("html,body").animate({
+          scrollTop: 0,
+        });
+      });
+    </script>
+
+    <!--Plugins-->
+    <script src="abtus.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  </body>
+</html>

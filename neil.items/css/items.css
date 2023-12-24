@@ -1,0 +1,423 @@
+body {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #fffde6;
+  font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+  overflow-x: hidden;
+}
+.item_all_item_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item_puff {
+  margin-right: 23px;
+}
+.item_all_item {
+  padding-right: 15px;
+}
+.item_all_card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.item_all_cards {
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 5px 10px 0px rgba(80, 80, 80, 0.25);
+  width: 433px;
+  height: 670px;
+  flex-shrink: 0;
+  text-align: center;
+  padding-top: 42px;
+}
+.item_small {
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  padding-bottom: 25px;
+  width: 120px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.item_big {
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  width: 262px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.item_text {
+  text-align: left;
+  padding-left: 42px;
+  margin-bottom: 20px;
+}
+
+.item_img01 {
+  flex: 0 0 auto; /* 不要伸縮，保持原始寬度 */
+  padding-bottom: 42px; /* 調整圖片和文字之間的間距，根據需要調整數值 */
+
+  transform-origin: center center;
+}
+.item_price_text_small {
+  color: #1f1f1f;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Josefin Sans", sans-serif;
+}
+.item_price_text_big {
+  color: #1f1f1f;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Josefin Sans", sans-serif;
+}
+.item_card01_price_quantity {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20px;
+}
+.item_card01_quantity {
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.item_card_price_quality_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.item_card_price_style {
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  height: 39px;
+}
+
+.item_price_twd_position {
+  width: 103px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.item_price {
+  width: 103px;
+  height: 10px;
+  flex-shrink: 0;
+}
+
+.item_card_quality_style {
+  display: flex;
+  flex-direction: row;
+  width: 285px;
+  height: 69px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.item_quality_label {
+  width: 55px;
+  height: 22.4px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.item_card_quantity_line {
+  border-right: 0.5px solid rgba(80, 80, 80, 0.6);
+  height: 20px;
+}
+.item_carousel-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-left: 28px;
+}
+.item_carousel-items {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s ease-in-out;
+  width: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.item_carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+/* .item_carousel-container button {
+  background: transparent;
+  border: none;
+  padding: 0; 
+} */
+.item_card_icon {
+  width: 64px;
+  height: 47px;
+  flex-shrink: 0;
+}
+.item_card_icon svg {
+  fill: #1f1f1f;
+}
+.item_card_icon svg:hover {
+  fill: #ffffff;
+}
+.item_shopping_line {
+  width: 346px;
+  height: 1px;
+  margin-top: -11px;
+  border-top: 0.5px solid rgba(80, 80, 80, 0.6);
+}
+
+.item_shopping_cart_container {
+  display: flex;
+  flex-direction: row;
+  width: 47px;
+  padding-top: 25px;
+}
+
+.item_card_icon {
+  border-radius: 25.5px;
+  border: 2px solid #ffd951;
+  background: #fffde6;
+  background-image: url(../img/shopping\ cart_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 21px 21px;
+}
+.item_card_icon_shoppingcart {
+  width: 21px;
+  height: 21px;
+}
+.item_card_buy_button {
+  width: 260px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 200px;
+  background: #ffd951;
+  border: none;
+  margin-left: 21px;
+  text-align: center;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+}
+.item_card_buy_button p {
+  width: 70px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.item_card01_shoppingcart_all {
+  display: flex;
+  justify-content: space-between;
+}
+.item_all_cards:hover {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 16px 17px -2px rgba(194, 194, 194, 0.72);
+}
+/* .item_img_text {
+  object-fit: fit;
+} */
+.item_image_div {
+  object-fit: cover;
+}
+.item_img01:hover {
+  border-radius: 16px;
+  filter: brightness(1.03);
+  transition: filter 0.2s ease;
+}
+.item_card_icon:hover {
+  border-radius: 25.5px;
+  border: none;
+  background-color: #f8b811;
+  transform: color 0.2s ease;
+  background-image: url(../img/shopping_cart2.svg);
+  background-position: center;
+  background-size: 21px 21px;
+}
+.item_card_icon_shoppingcart:hover {
+  transform: color 0.2s ease;
+}
+.item_card_buy_button:hover {
+  background-color: #f8b811;
+}
+.item_card_buy_button p:hover {
+  color: #ffffff;
+}
+.item_prev_btn {
+  background-image: url("../img/dec_btn_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 23px;
+  border: none;
+  background-color: #ffffff;
+}
+.item_prev_btn:hover {
+  background-image: url("../img/dec_btn_icon_hover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#item_next_btn {
+  background-image: url("../img/inc_btn_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 23px;
+  border: none;
+  background-color: #ffffff;
+}
+#item_next_btn:hover {
+  background-image: url("../img/inc_btn_icon_hover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item_gif {
+  width: 125%;
+  scale: 1;
+  margin-left: -200px;
+  position: relative;
+  top: -100px;
+}
+.item_all_container {
+  scale: 0.75;
+  margin-top: -450px;
+  padding-right: 20px;
+}
+.item_all_item_title {
+  scale: 0.75;
+  margin-left: -90px;
+  margin-top: 250px;
+}
+.item_breadcrumb_item01 p {
+  color: #505050;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.item_breadcrumb_item01 {
+  display: flex;
+  flex-direction: row;
+}
+.item_breadcrumb_item01 img {
+  width: 32.692px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-left: 55px;
+  margin-right: 70px;
+}
+.breadcrumb-item a {
+  color: #505050;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.item_breadcrumb_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.breadcrumb li {
+  content: none;
+}
+.homepage_header {
+  margin-left: -20px;
+}
+.news-submenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #505050;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 120px;
+  letter-spacing: 1px;
+}
+.news-submenu img {
+  height: 30px;
+  padding-bottom: 3px;
+  margin: 20px;
+}
+.news-submenu a {
+  padding: 30px;
+}
+.news-submenu a:hover {
+  color: #f17f00;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+.item_header_neil_logo {
+  margin-bottom: -50px;
+}
+.item_title_all_card_container {
+  margin-top: -150px;
+}
+.item_gif_footer {
+  margin-top: -800px;
+}
+.item_goTop {
+  position: fixed;
+  right: 100px;
+  bottom: 80px;
+  z-index: 7;
+  cursor: pointer;
+  rotate: 180deg;
+  scroll-snap-align: start;
+}
+.item_goTop a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 22px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+}
