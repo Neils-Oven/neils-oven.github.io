@@ -1,0 +1,132 @@
+.Footer {
+  margin-top: -100px;
+  height: 500px;
+  width: auto;
+  background-color: #f0f0f0;
+}
+
+.footer {
+  padding-top: 90px;
+  margin-left: 120px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.media {
+  margin-top: 120px;
+  margin-left: -20px;
+  display: flex;
+}
+
+.media a:hover {
+  opacity: 50%;
+  transition-property: all;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.media img {
+  width: 25px;
+  margin-inline: 25px;
+}
+
+.ftr-right {
+  display: flex;
+  text-decoration: none;
+}
+
+.ftr-menu {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 80px;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.ftr-menu h3 {
+  color: #1f1f1f;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
+}
+
+.ftr-menu p {
+  margin-top: 20px;
+  color: #505050;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.row-2 {
+  margin-inline: 130px;
+}
+
+.ftr-menu h3:hover {
+  opacity: 60%;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.ftr-menu p:hover {
+  opacity: 60%;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 96px;
+  justify-content: flex-end;
+}
+
+.copyright p {
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  color: #505050;
+}
+.order_footer_neil.logo {
+  margin-left: 30px;
+}
+.order_footer_neil_logo {
+  margin-left: -10px;
+}
+.ftr-left {
+  margin-left: 30px;
+}
+.row-1 h3 {
+  color: #1f1f1f;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.row-2 h3 {
+  color: #1f1f1f;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.row-3 h3 {
+  color: #1f1f1f;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
