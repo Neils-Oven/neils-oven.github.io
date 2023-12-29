@@ -708,52 +708,45 @@ input:focus::placeholder {
   flex-direction: column;
 }
 .homepage_3rdtitle {
-  width: 45%;
-  height: 20%;
-  display: flex;
-  color: #924317;
-  justify-content: flex-start;
-  align-items: center;
+    height: 20%;
+    display: flex;
+    color: #924317;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .homepage_3rdlogo {
-  width: 15%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-right: 10px;
+width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
 }
-.homepage_3rdlogo img {
-  width: 95%;
-  height: 100%;
-}
+
 .homepage_3rdchtitle {
-  width: 75%;
-  height: 100%;
-  font-weight: 1000;
-  font-size: 30px;
-  letter-spacing: 2px;
-  display: flex;
-  align-items: center;
-  margin: 10px;
+height: 100%;
+    font-weight: 1000;
+    font-size: 25px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
 .homepage_3rdch {
-  font-weight: 1000;
-  font-size: 40px;
-  height: 100%;
-  margin-right: 10px;
-  font-weight: 1000;
-  letter-spacing: 2px;
-  display: flex;
-  align-items: center;
-  margin: 10px;
+font-weight: 1000;
+    font-size: 35px;
+    height: 100%;
+    margin-right: 10px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
 .homepage_3rdentitle {
-  width: 60%;
   height: 100%;
   letter-spacing: 1.8px;
-  font-size: 36px;
+  font-size: 35px;
   font-family: "Love Ya Like A Sister", cursive;
   color: #924317;
   font-weight: 400;
