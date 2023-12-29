@@ -281,12 +281,22 @@ body {
 .item_card_icon_shoppingcart:hover {
   transform: color 0.2s ease;
 }
-.item_card_buy_button:hover {
+.item_card_buy_button:hover p:hover {
+  width: 260px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 200px;
+  border: none;
+  text-align: center;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f8b811;
-}
-.item_card_buy_button p:hover {
   color: #ffffff;
+  margin-top: 2px;
 }
+
 .item_prev_btn {
   background-image: url("../img/dec_btn_icon.svg");
   background-position: center;
@@ -412,7 +422,6 @@ body {
   z-index: 7;
   cursor: pointer;
   rotate: 180deg;
-  scroll-snap-align: start;
 }
 .item_goTop a {
   text-decoration: none;
