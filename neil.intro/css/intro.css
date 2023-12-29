@@ -1,0 +1,536 @@
+body {
+  width: 100vw;
+  margin: 0 auto;
+  font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+  overflow-x: hidden;
+}
+
+.intro_title_cintainer {
+  display: flex;
+  flex-direction: row;
+  scale: 0.75;
+  margin-left: 190px;
+  margin-top: 120px;
+  margin-bottom: -120px;
+}
+.intro_puff {
+  margin-right: 23px;
+}
+.intor_intro {
+  margin-right: 15px;
+}
+.intro_strawberry_cake_name_eng {
+  color: #1f1f1f;
+  font-family: Love Ya Like A Sister;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+.intro_strawberry_cake_text {
+  color: #1f1f1f;
+  text-align: justify;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190%; /* 38px */
+  letter-spacing: 2px;
+}
+.intro_title_name {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.intro_bear01_ani_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -200px;
+}
+.intro_bear01_ani {
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+.intro_card_l1_container {
+  display: flex;
+  flex-direction: row;
+}
+.intro_card01_all_container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(80, 80, 80, 0.25);
+  height: 375.272px;
+  width: 585.424px;
+  flex-shrink: 0;
+  margin-top: 187px;
+  margin-right: 68px;
+}
+.intro_card01_all_container:hover {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 16px 17px -2px rgba(194, 194, 194, 0.72);
+}
+.intro_card01_item_name_small {
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.intro_card01_item_name_big {
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding-bottom: 33px;
+}
+.intro_card01_price {
+  color: #1f1f1f;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.intro_card01_quantity {
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+.intro_card_quantity_line {
+  border-right: 0.5px solid rgba(80, 80, 80, 0.6);
+  height: 20px;
+  padding-right: 21px;
+  width: 25.263px;
+  flex-shrink: 0;
+  margin-top: 3.5px;
+}
+.intro_card01_buy_button {
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  border: none;
+}
+.intro_card01_quantity_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 99.5px;
+}
+.intro_card01_buy_container {
+  display: flex;
+  flex-direction: row;
+}
+.intro_card01_item_container {
+  margin-top: 43px;
+  margin-left: 20px;
+}
+.intro_card01_item_img {
+  margin-left: 38px;
+  margin-top: 38px;
+}
+.intro_card01_item_img:hover {
+  border-radius: 16px;
+  filter: brightness(1.03);
+  transition: filter 0.2s ease;
+}
+.intro_card01_cart_icon {
+  background-image: url(../img/Vector.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25.5px;
+  border: 2px solid #ffd951;
+  background-color: #ffffff;
+  width: 95px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.intro_card01_cart_icon:hover {
+  background-image: url(../img/Vector.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: #f8b811;
+}
+.intro_card01_buy_button {
+  border-radius: 200px;
+  background: #ffd951;
+  width: 94.756px;
+  height: 40.342px;
+  flex-shrink: 0;
+  text-align: center;
+  padding-top: 10.32px;
+  margin-left: 10px;
+}
+.intro_card01_buy_button:hover {
+  color: #ffffff;
+  background-color: #f8b811;
+}
+.intro_carousel-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-left: 25px;
+}
+.intro_carousel-items {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s ease-in-out;
+  width: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  color: #1f1f1f;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -4px;
+  margin-left: -3px;
+}
+.intro_carousel-container button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+#intro_prev_btn {
+  background-image: url(../img/intro_dec_btn.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 23px;
+  border: none;
+  background-color: #ffffff;
+}
+#intro_prev_btn:hover {
+  background-image: url(../img/intro_dec_btn_hover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#intro_next_btn {
+  background-image: url(../img/intro_inc_btn.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 23px;
+  border: none;
+  background-color: #ffffff;
+}
+#intro_next_btn:hover {
+  background-image: url(../img/intro_inc_btn_hover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.intro_che_bear_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-right: 100px;
+  margin-left: -20px;
+}
+.intro_cheese_cake_eng {
+  color: #1f1f1f;
+  font-family: Love Ya Like A Sister;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  margin-top: 600px;
+}
+.intro_che_name {
+  margin-top: 32px;
+}
+.intro_che_intro_text {
+  margin-top: 90px;
+}
+.intro_cheese_cake_container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-image: url(../img/黃色底色色塊02.png);
+  background-size: 2000px;
+  background-repeat: repeat;
+  scale: 0.75;
+  margin-left: -230px;
+  padding-top: -200px;
+  width: 2500px;
+  height: 1500px;
+}
+.intro_cheese_cake_container .intro_strw_card_carousel_container {
+  margin-top: 800px;
+  position: relative;
+  justify-content: space-between;
+  scale: 1;
+}
+.intro_cheese_case_carousel_container_2 {
+  position: relative;
+  scale: 0.75;
+  margin-top: -350px;
+  width: 1200px;
+}
+.intro_strawberry_cake_name_container {
+  margin-top: 180px;
+}
+.intro_strawberry_cake_name {
+  margin-top: 32px;
+}
+.intro_strawberry_cake_text {
+  margin-top: 93px;
+}
+.intro_che_small_bear {
+  position: relative;
+  left: 460px;
+  top: 200px;
+  width: 474px;
+  height: 335px;
+}
+.intro_che_big_bear {
+  width: 736px;
+  height: 736px;
+}
+.intro_strw_card_carousel_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: space-between;
+  scale: 0.75;
+  margin-left: 180px;
+}
+.intro_che_container_width {
+  width: 1500px !important;
+}
+.intro_che_card_carousel_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.intro_strw_all_container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  scale: 0.75;
+  margin-top: 50px;
+  margin-bottom: -150px;
+  margin-left: -90px;
+}
+.intro_strw_milk_item_name_eng {
+  color: #1f1f1f;
+  font-family: Love Ya Like A Sister;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+.intro_strw_milk_pic_container {
+  display: flex;
+  flex-direction: row;
+  margin-left: -100px;
+}
+.intro_che_card_carousel_container {
+  position: relative;
+  top: 1100px;
+  right: 1400px;
+  justify-content: space-between;
+}
+.intro_strw_milk_container {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+  scale: 0.75;
+}
+.intro_strw_milk_item_name {
+  margin-top: 36px;
+}
+.intro_strw_milk_intro_text {
+  margin-top: 84px;
+}
+.intro_strw_milk_big_pic {
+  margin-left: 286px;
+  margin-bottom: 500px;
+}
+.intro_strw_milk_text_container {
+  margin-top: 150px;
+  margin-right: -250px;
+}
+.intro_strw_milk_neil {
+  position: relative;
+  top: 230px;
+  left: 550px;
+}
+
+.intro_cookie_neil {
+  position: relative;
+  bottom: 500px;
+  left: 400px;
+}
+.intro_cookie_item_name_eng {
+  color: #1f1f1f;
+  font-family: Love Ya Like A Sister;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+.intro_cookie_item_name {
+  margin-top: 36px;
+}
+.intro_cookie_intro_text {
+  margin-top: 100px;
+}
+.intro_cookie_text {
+  margin-bottom: 350px;
+  margin-left: 136px;
+}
+.intro_strw_milk_container .intro_strw_card_carousel_container {
+  margin-top: 600px;
+  position: relative;
+  right: 1750px;
+  top: 50px;
+  scale: 1;
+}
+.intro_cookie_container {
+  display: flex;
+  flex-direction: row;
+  scale: 0.75;
+  position: relative;
+
+  right: 240px;
+  width: 2500px;
+  background-image: url(../img/黃色底色色塊02.png);
+}
+.intro_cookie_name_eng {
+  color: #1f1f1f;
+  font-family: Love Ya Like A Sister;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  margin-top: 100px;
+}
+.intro_cookie_name {
+  margin-top: 36px;
+}
+.intro_cookie_text_container {
+  margin-left: 127px;
+  margin-top: 180px;
+}
+.intro_cookie_small_bear {
+  position: relative;
+  top: 575px;
+  left: 350px;
+}
+.intro_cookie_big_bear {
+  position: relative;
+  margin-top: -130px;
+  z-index: 9999;
+}
+
+.intro_cookie_bear_container {
+  width: 100%;
+  height: 100%;
+  margin-left: 600px;
+}
+.intro_cookie_container .intro_strw_card_carousel_container {
+  position: relative;
+  margin-top: 800px;
+  right: 1650px;
+  margin-bottom: 90px;
+  margin-left: 420px;
+  scale: 1;
+}
+.intro_cheese_cake_text_container {
+  margin-top: -230px;
+}
+.intro_bera01_big {
+}
+.intro_cheese_case_carousel_container_2 {
+  position: relative;
+  bottom: 400px;
+  left: 250px;
+}
+#hoverNeilImage {
+  width: 455px;
+  height: 374px;
+}
+.intro_che_background_02 {
+  position: relative;
+  right: 500px;
+  bottom: 1520px;
+  height: 1125px;
+  width: 965px;
+}
+.intro_che_background_03 {
+  position: relative;
+  bottom: 1510px;
+  left: 900px;
+  height: 1125px;
+  width: 965px;
+}
+.intro_cookie_background_02 {
+  position: relative;
+  height: 1089px;
+  width: 650px;
+  right: 100px;
+  bottom: 1270px;
+}
+.intro_cookie_background_03 {
+  position: relative;
+  height: 1089px;
+  width: 965px;
+  left: 1200px;
+  bottom: 1260px;
+}
+.intro_milk_cookie_container {
+  margin-top: -100px;
+}
+.intro_dot_ani_01 {
+  display: flex;
+  flex-direction: column; /* 设置主轴方向为垂直方向 */
+  align-items: center; /* 在交叉轴上居中对齐 */
+}
+.intro_li_dot02 {
+  margin-top: 53px;
+}
+.intro_dot_ani_02 {
+  display: flex;
+  flex-direction: column; /* 设置主轴方向为垂直方向 */
+  align-items: center; /* 在交叉轴上居中对齐 */
+  position: relative;
+  bottom: 1480px;
+}
+.intro_l2_dot02 {
+  margin-top: 53px;
+}
+.intro_dot_ani_03 {
+  display: flex;
+  flex-direction: column; /* 设置主轴方向为垂直方向 */
+  align-items: center; /* 在交叉轴上居中对齐 */
+}
+.intro_l3_dot02 {
+  margin-top: 53px;
+}
