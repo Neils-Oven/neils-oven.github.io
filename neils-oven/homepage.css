@@ -420,8 +420,8 @@ a {
 .homepage_search {
   display: flex;
   align-items: center;
-  width: 120px;
-  height: 40px;
+width: 80%;
+    height: 50%;
   padding: 0px 20px 0px 15px;
   border-radius: 50px;
   border: 2px solid #ffe7ab;
@@ -440,7 +440,7 @@ a {
   box-shadow: none;
   background-color: transparent;
   border: none;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
 }
 ::placeholder {
