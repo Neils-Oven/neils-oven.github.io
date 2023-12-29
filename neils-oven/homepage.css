@@ -357,11 +357,11 @@ a {
   align-items: center;
 }
 .homepage_member a {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .homepage_member a img {
@@ -388,11 +388,11 @@ a {
   align-items: center;
 }
 .homepage_shoppingcar a {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .homepage_shoppingcar a img {
@@ -411,11 +411,11 @@ a {
   opacity: 0;
 }
 .homepage_searchbar {
-  width: 45%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .homepage_search {
   display: flex;
