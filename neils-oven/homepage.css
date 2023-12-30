@@ -1615,7 +1615,7 @@ font-weight: 1000;
 .ftr-menu {
   display: flex;
   align-items: flex-start;
-  margin-top: 80px;
+  margin-top: 40px;
   flex-direction: row;
 }
 
