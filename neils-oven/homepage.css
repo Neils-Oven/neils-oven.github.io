@@ -140,7 +140,7 @@ a {
 }
 .hamburger_news h1 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .hamburger_news h1:hover {
   color: #ff9b25;
@@ -182,7 +182,7 @@ a {
 }
 .hamburger_about h1 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .hamburger_about h1:hover {
   color: #ff9b25;
@@ -222,7 +222,7 @@ a {
 }
 .hamburger_product h1 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 .hamburger_product h1:hover {
@@ -245,7 +245,7 @@ a {
 .hamburger_product li a {
   width: 100%;
   height: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #7d7d7d;
 }
@@ -267,7 +267,7 @@ a {
 }
 .hamburger_all h1 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 .hamburger_all h1:hover {
@@ -446,7 +446,8 @@ width: 80%;
   background-color: transparent;
   border: none;
   font-size: 18px;
-  font-weight: 700;
+      font-weight: 400;
+    letter-spacing: 2px;
 }
 ::placeholder {
   color: #ff9b25;
