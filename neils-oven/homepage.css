@@ -342,7 +342,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  font-weight: 400;}
 .homepage_nav li :hover {
   color: #ff9b25;
   transition-duration: 0.3s;
@@ -1622,17 +1622,16 @@ font-weight: 1000;
 .ftr-menu h3 {
   color: #1f1f1f;
   font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 2px;
   padding-bottom: 25px;
+  font-weight: 500;
 }
 
 .ftr-menu p {
   margin-top: 20px;
   color: #505050;
   font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-weight: 400;
+  
 }
 
 .row-2 {
