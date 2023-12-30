@@ -331,7 +331,7 @@ a {
 
 .homepage_nav li a {
   width: 100%;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -365,8 +365,7 @@ width: 100%;
 }
 
 .homepage_member a img {
-  width: 25px;
-  height: 25px;
+  height: 30px;
 }
 .homepage_member img {
   position: absolute;
@@ -396,8 +395,7 @@ width: 100%;
 }
 
 .homepage_shoppingcar a img {
-  width: 25px;
-  height: 25px;
+  height: 30px;
 }
 .homepage_shoppingcar img {
   position: absolute;
@@ -421,7 +419,7 @@ width: 45%;
   display: flex;
   align-items: center;
 width: 80%;
-    height: 50%;
+    height: 60%;
   padding: 0px 20px 0px 15px;
   border-radius: 50px;
   border: 2px solid #ffe7ab;
@@ -440,7 +438,7 @@ width: 80%;
   box-shadow: none;
   background-color: transparent;
   border: none;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
 }
 ::placeholder {
