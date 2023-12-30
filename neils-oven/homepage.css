@@ -26,6 +26,7 @@ a {
   width: 100%;
   height: 120px;
   padding: 25px;
+      margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +63,7 @@ a {
 }
 .material-symbols-outlined img {
   width: 100%;
-  height: 100%;
+  height: 120%;
 }
 /*strawberry open*/
 
