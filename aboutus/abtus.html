@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="reset.css/reset.css" />
     <link href="./css/abtus.css" rel="stylesheet"></link>
     <link href="./homepage.css" rel="stylesheet"></link>
-    
      <!--plugins-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -99,7 +98,7 @@
               <a href="#">關於尼爾</a>
             </li>
             <li>
-              <a href="https://neils-oven.github.io/neils-oven/index.html"
+              <a href="./index.html"
                 ><img src="./homepage_img/homepage_logo.svg"
               /></a>
             </li>
@@ -232,12 +231,12 @@
     <h3 class="str">Branch Stores</h2>
    </div>
  <div class="photo-1">
-    <img src="./img/store_1.png" class="Store-1">
-    <a href="https://www.google.com/maps/place/%E8%AA%A0%E5%93%81%E7%94%9F%E6%B4%BB%E6%9D%BE%E8%8F%B8/@25.044545,121.5614574,15z/data=!4m2!3m1!1s0x0:0x9d204e656cd39b8?sa=X&ved=2ahUKEwia67HTlPuCAxWxklYBHUgkBvYQ_BJ6BAgPEAA" target="_blank"><img src="./img/bear_store.png" class="store-1"></a>
+    <a href="https://www.google.com/maps/dir//%E8%AA%A0%E5%93%81%E7%94%9F%E6%B4%BB%E6%9D%BE%E8%8F%B8/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3442abbf1460de89:0x9d204e656cd39b8?sa=X&ved=2ahUKEwiOlpD19b6DAxXQtFYBHcl8BckQ9Rd6BAhGEAA" target="blank"><img src="./img/store_1.png" class="Store-1"></img></a>
+    <img src="./img/store_1_hover.jpg" class="Store-1-hover"></img>
 </div>
     <div class="photo-2">
-    <img src="./img/store_2.jpg" class="Store-2">
-    <a href="https://www.google.com/maps/place/403%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E4%B8%AD%E8%88%88%E5%9B%9B%E5%B7%B713%E8%99%9F/@24.1485387,120.6576874,17z/data=!3m1!4b1!4m10!1m2!2m1!1z5Lit6IiI5Zub5be3MTPomZ8!3m6!1s0x34693d9f02f25a8b:0xa5685a4d7ac2eace!8m2!3d24.1485339!4d120.6625583!15sChHkuK3oiIjlm5vlt7cxM-iZn5IBEGdlb2NvZGVkX2FkZHJlc3PgAQA!16s%2Fg%2F11c2ctnmrn?entry=ttu" target="_blank"><img src="./img/bear_store.png" class="store-2"></a>
+    <a href="https://www.google.com/maps/place/403%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E4%B8%AD%E8%88%88%E5%9B%9B%E5%B7%B713%E8%99%9F/@24.1485339,120.6625583,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d9f02f25a8b:0xa5685a4d7ac2eace!8m2!3d24.1485339!4d120.6625583!16s%2Fg%2F11c2ctnmrn?entry=ttu" target="blank"><img src="./img/store_2.jpg" class="Store-2"></img></a>
+    <img src="./img/store_2_hover.jpg" class="Store-2-hover"></img>
 </div>
 <div class="store-info">
     <div class="info-title">
@@ -382,8 +381,10 @@
 
 
 <!--Plugins-->
+<script src="abtus.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/split-type"></script>
 <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
 
 <script>
@@ -399,5 +400,13 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+</script>
+<script>
+$("#menu_icon").click(function () {
+  $(".menu").css("visibility", "visible");
+});
+$("#close_icon").click(function () {
+  $(".menu").css("visibility", "hidden");
+});
 </script>
 </body>
