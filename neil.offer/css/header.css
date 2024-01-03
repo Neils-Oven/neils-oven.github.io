@@ -128,7 +128,7 @@ a {
   display: flex;
 }
 .hamburger_news h1 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
 }
 .hamburger_news h1:hover {
@@ -143,13 +143,13 @@ a {
 }
 .hamburger_newsli li {
   display: flex;
-  font-size: 15px;
+  font-size: 12px;
   margin-right: 20px;
 }
 .hamburger_newsli li a {
   width: 100%;
   height: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #7d7d7d;
 }
@@ -168,7 +168,7 @@ a {
   margin-left: 100px;
 }
 .hamburger_about h1 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
 }
 .hamburger_about h1:hover {
@@ -183,13 +183,13 @@ a {
 }
 .hamburger_about li {
   display: flex;
-  font-size: 15px;
+  font-size: 22px;
   margin-right: 20px;
 }
 .hamburger_about li a {
   width: 100%;
   height: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #7d7d7d;
 }
@@ -208,7 +208,7 @@ a {
   margin-left: 100px;
 }
 .hamburger_product h1 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
 }
 .hamburger_product h1:hover {
@@ -224,13 +224,13 @@ a {
 
 .hamburger_product li {
   display: flex;
-  font-size: 15px;
+  font-size: 12px;
   margin-right: 20px;
 }
 .hamburger_product li a {
   width: 100%;
   height: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #7d7d7d;
 }
@@ -249,7 +249,7 @@ a {
   margin-left: 100px;
 }
 .hamburger_all h1 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
 }
 .hamburger_all h1:hover {
@@ -264,13 +264,13 @@ a {
 }
 .hamburger_all li {
   display: flex;
-  font-size: 15px;
+  font-size: 12px;
   margin-right: 20px;
 }
 .hamburger_all li a {
   width: 100%;
   height: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #7d7d7d;
 }
@@ -315,7 +315,7 @@ a {
 
 .homepage_nav li a {
   width: 100%;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
