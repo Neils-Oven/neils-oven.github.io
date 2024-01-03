@@ -174,9 +174,23 @@ body {
   letter-spacing: 1.3px;
   padding-top: 22px;
 }
-.order_card01_buy_button:hover {
+.order_card01_buy_button:hover p:hover {
   color: #ffffff;
   background: #f8b811;
+  width: 268px;
+  height: 81px;
+  flex-shrink: 0;
+  border-radius: 200px;
+  border: none;
+  font-family: Microsoft JhengHei;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  padding-top: 22px;
+  margin-top: -22px;
+  margin-left: -4px;
 }
 .order_long_line {
   border-top: 1px solid rgba(80, 80, 80, 0.6) #505050;
@@ -365,7 +379,18 @@ body {
   margin-left: 200px;
   margin-right: -300px;
 }
-.order_card02_item_name {
+.order_card02_all_container:hover {
+  box-shadow: 0px 16px 17px -2px rgba(194, 194, 194, 0.72);
+}
+.order_card02_img:hover {
+  filter: brightness(1.03);
+  transition: filter 0.2s ease;
+}
+.order_card02_img:hover {
+  filter: brightness(1.03);
+  transition: filter 0.2s ease;
+}
+. .order_card02_item_name {
   color: #1f1f1f;
   font-family: Microsoft JhengHei;
   font-size: 20px;
@@ -382,7 +407,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 68px;
+  margin-bottom: 48px;
 }
 .order_card02_quantity_carousel {
   display: flex;
@@ -400,8 +425,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   text-align: left;
+  margin-top: 85px;
 }
 .order_card02_choose_button {
   color: #1f1f1f;
@@ -442,14 +467,14 @@ body {
   margin-left: 73px;
 }
 #order_prev_btn {
-  background-image: url("../img/dec_btn_icon.svg");
+  background-image: url(../img/dec_btn_icon.svg);
   background-position: center;
   background-repeat: no-repeat;
-  width: 23px;
+  width: 25px;
   border: none;
   background-color: #ffffff;
 }
-.order_prev_btn:hover {
+#order_prev_btn:hover {
   background-image: url(../img/dec_btn_icon_hover.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -457,12 +482,19 @@ body {
   border: none;
 }
 #order_next_btn {
-  background-image: url("../img/inc_btn_icon.svg");
+  background-image: url(../img/inc_btn_icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25px;
+  border: none;
+  background-color: #ffffff;
+}
+#order_next_btn:hover {
+  background-image: url(../img/inc_btn_icon_hover.png);
   background-position: center;
   background-repeat: no-repeat;
   width: 23px;
   border: none;
-  background-color: #ffffff;
 }
 .order_c_dot_container {
   display: flex;
@@ -477,6 +509,9 @@ body {
   margin-top: 615px;
   margin-bottom: 123px;
   scale: 0.75;
+}
+.order_info {
+  margin-right: 15px;
 }
 .order_car_item {
   padding-left: 406px;
@@ -560,7 +595,7 @@ body {
   width: 30px;
   height: 15px;
   flex-shrink: 0;
-  left: calc(100% - 429px);
+  left: calc(100% - 672px);
   margin-top: 28px;
 }
 .order_other_item .arrow2:hover {
@@ -572,7 +607,7 @@ body {
   width: 30px;
   height: 15px;
   flex-shrink: 0;
-  left: calc(100% - 429px);
+  left: calc(100% - 672px);
   transition: transform 1em;
 }
 .offer_card04_pic img {
@@ -609,7 +644,7 @@ body {
   width: 30px;
   height: 15px;
   flex-shrink: 0;
-  left: calc(100% - 429px);
+  left: calc(100% - 672px);
   margin-top: 28px;
 }
 .order_alert_item .arrow3:hover {
@@ -621,7 +656,7 @@ body {
   width: 30px;
   height: 15px;
   flex-shrink: 0;
-  left: calc(100% - 429px);
+  left: calc(100% - 672px);
   transition: transform 0.5em;
 }
 .order_home_delver_img {
@@ -658,7 +693,7 @@ body {
   justify-content: center;
   scale: 0.75;
   margin-left: 210px;
-  margin-top: -250px;
+  margin-top: -90px;
 }
 .accordion-item {
   border: none;

@@ -24,7 +24,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/scrollreveal"></script>
-    <link href="./owl.carousel.min.css" rel="stylesheet" />
+    <link href="./owlcarousel/owl.carousel.min.css" rel="stylesheet" />
     <link href="./css/order.css" rel="stylesheet" />
     <link href="./css/footer.css" rel="stylesheet" />
     <link href="./css/header.css" rel="stylesheet" />
@@ -172,39 +172,38 @@
                 <img src="./img/84418ad7-2751-4748-b841-42f6ade42003 (2).png" />
               </div>
               <div class="order_img_carousel_dot_container">
-                <img src="./img/order_c_dot01.png" />
-                <img src="./img/order_c_dot02.png" />
-                <img src="./img/order_c_dot01.png" />
-                <img src="./img/order_c_dot01.png" />
-                
+                <img id="order_c_dot01" src="./img/order_c_dot01.png" />
+                <img id="order_c_dot02" src="./img/order_c_dot01.png" />
+                <img id="order_c_dot03" src="./img/order_c_dot01.png" />
+                <img id="order_c_dot04" src="./img/order_c_dot01.png" />
               </div>
               <div class="order_carousel_img-container">
                 <div class="order_carousel_img_02">
                   <img
                     id="order_c_img_02"
                     src="./img/84418ad7-2751-4748-b841-42f6ade42003 (4).png"
-                    onclick="handleImageClick('order_c_img_02')"
+                    onclick="handleImageClick('order_c_img_02', 'order_c_dot01')"
                   />
                 </div>
                 <div class="order_carousel_img_03">
                   <img
                     id="order_c_img_03"
                     src="./img/84418ad7-2751-4748-b841-42f6ade42003 (4).png"
-                    onclick="handleImageClick('order_c_img_03')"
+                    onclick="handleImageClick('order_c_img_03', 'order_c_dot02')"
                   />
                 </div>
                 <div class="order_carousel_img_04">
                   <img
                     id="order_c_img_04"
                     src="./img/84418ad7-2751-4748-b841-42f6ade42003 (4).png"
-                    onclick="handleImageClick('order_c_img_04')"
+                    onclick="handleImageClick('order_c_img_04', 'order_c_dot03')"
                   />
                 </div>
                 <div class="order_carousel_img_06">
                   <img
                     id="order_c_img_05"
                     src="./img/84418ad7-2751-4748-b841-42f6ade42003 (4).png"
-                    onclick="handleImageClick('order_c_img_05')"
+                    onclick="handleImageClick('order_c_img_05', 'order_c_dot04')"
                   />
                 </div>
                 <div class="order_carousel_img_05">
@@ -227,20 +226,16 @@
                   <div class="order_size_line"></div>
                   <div class="order_carousel_size-container">
                     <button
-                      id="order_prev"
+                      id="order_prev_btn"
                       onclick="handleDecButtonClick('order_carouselCount01')"
-                    >
-                      <img src="./img/dec_btn_icon.svg" />
-                    </button>
+                    ></button>
                     <div class="order_carousel-items">
-                      <span id="order_carouselCount01">1吋</span>
+                      <span id="order_carouselCount01">1</span><span>吋</span>
                     </div>
                     <button
-                      id="order_next"
-                      onclick="handleDecButtonClick('order_carouselCount01')"
-                    >
-                      <img src="./img/inc_btn_icon.svg" />
-                    </button>
+                      id="order_next_btn"
+                      onclick="handleIncButtonClick('order_carouselCount01')"
+                    ></button>
                   </div>
                 </div>
                 <div class="order_card01_quantity_carousel_all">
@@ -250,18 +245,14 @@
                     <button
                       id="order_prev_btn"
                       onclick="handleDecButtonClick('order_quantity_carouselCount02')"
-                    >
-                      <img src="./img/dec_btn_icon.svg" />
-                    </button>
+                    ></button>
                     <div class="order_carousel-items">
                       <span id="order_quantity_carouselCount02">1</span>
                     </div>
                     <button
-                      id="order_next02"
-                      onclick="handleDecButtonClick('order_quantity_carouselCount02')"
-                    >
-                      <img src="./img/inc_btn_icon.svg" />
-                    </button>
+                      id="order_next_btn"
+                      onclick="handleIncButtonClick('order_quantity_carouselCount02')"
+                    ></button>
                   </div>
                 </div>
                 <div class="order_card01_buy_all_container">
@@ -322,14 +313,14 @@
                   <div class="order_card02_quantity_carousel">
                     <button
                       id="order_prev_btn"
-                      onclick="handleIncButtonClick('order_carouselCount02')"
+                      onclick="handleDecButtonClick('order_carouselCount02')"
                     ></button>
                     <div class="order_carousel-items">
                       <span id="order_carouselCount02">1</span>
                     </div>
                     <button
                       id="order_next_btn"
-                      onclick="handleDecButtonClick('order_carouselCount02')"
+                      onclick="handleIncButtonClick('order_carouselCount02')"
                     ></button>
                   </div>
                   <button class="order_card02_choose_button">
@@ -349,14 +340,14 @@
                   <div class="order_card02_quantity_carousel">
                     <button
                       id="order_prev_btn"
-                      onclick="handleIncButtonClick('order_carouselCount03')"
+                      onclick="handleDecButtonClick('order_carouselCount03')"
                     ></button>
                     <div class="order_carousel-items">
                       <span id="order_carouselCount03">1</span>
                     </div>
                     <button
                       id="order_next_btn"
-                      onclick="handleDecButtonClick('order_carouselCount03')"
+                      onclick="handleIncButtonClick('order_carouselCount03')"
                     ></button>
                   </div>
                   <button class="order_card02_choose_button">
@@ -378,14 +369,14 @@
                   <div class="order_card02_quantity_carousel">
                     <button
                       id="order_prev_btn"
-                      onclick="handleIncButtonClick('order_carouselCount04')"
+                      onclick="handleDecButtonClick('order_carouselCount04')"
                     ></button>
                     <div class="order_carousel-items">
                       <span id="order_carouselCount04">1</span>
                     </div>
                     <button
                       id="order_next_btn"
-                      onclick="handleDecButtonClick('order_carouselCount04')"
+                      onclick="handleIncButtonClick('order_carouselCount04')"
                     ></button>
                   </div>
                   <button class="order_card02_choose_button">
@@ -405,14 +396,14 @@
                   <div class="order_card02_quantity_carousel">
                     <button
                       id="order_prev_btn"
-                      onclick="handleIncButtonClick('order_carouselCount05')"
+                      onclick="handleDecButtonClick('order_carouselCount05')"
                     ></button>
                     <div class="order_carousel-items">
                       <span id="order_carouselCount05">1</span>
                     </div>
                     <button
                       id="order_next_btn"
-                      onclick="handleDecButtonClick('order_carouselCount05')"
+                      onclick="handleIncButtonClick('order_carouselCount05')"
                     ></button>
                   </div>
                   <button class="order_card02_choose_button">
@@ -625,12 +616,12 @@
         </div>
       </div>
     </div>
-      <div>
-        <img src="./img/商品詳情動畫背景.png" />
-      </div>
-      <div class="order_bear_animate_gif">
-        <img src="./img/商品詳情(尼爾).gif" />
-      </div>
+    <div>
+      <img src="./img/商品詳情動畫背景.png" />
+    </div>
+    <div class="order_bear_animate_gif">
+      <img src="./img/商品詳情(尼爾).gif" />
+    </div>
     <div class="Footer">
       <div class="footer">
         <div class="ftr-left">
@@ -692,6 +683,9 @@
         </div>
       </div>
     </div>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./owlcarousel/owl.carousel.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -701,28 +695,23 @@
       function handleDecButtonClick(countId) {
         const countIdElement = document.getElementById(countId);
         var count = parseInt(countIdElement.textContent);
-        var myText = "吋";
-        var order_carouselCount01 = document.getElementById(
-          "order_carouselCount01"
-        );
-        order_carouselCount01.textContent = myText;
-        if (count < 20) {
+        var order_carouselCount01 = document.getElementById(countId);
+        if (count < 20 && count >= 2) {
           count--;
-          countIdElement.textContent = count + myText;
+          countIdElement.textContent = count;
         }
       }
 
       function handleIncButtonClick(countId) {
         const countIdElement = document.getElementById(countId);
         var count = parseInt(countIdElement.textContent);
-        if (count >= 2) {
-          count < 20;
+        if (count >= 1 && count < 20) {
           count++;
-          countIdElement.textContent = count + myText;
+          countIdElement.textContent = count;
         }
       }
-
-      <script>
+    </script>
+    <script>
       function handleDecButtonClick(countId) {
         const countIdElement = document.getElementById(countId);
         var count = parseInt(countIdElement.textContent);
@@ -741,18 +730,23 @@
         }
       }
     </script>
+    <script>
+      function handleImageClick(imgId, dotId) {
+        document.getElementById("order_c_dot01").style.opacity = "0.5";
+        document.getElementById("order_c_dot02").style.opacity = "0.5";
+        document.getElementById("order_c_dot03").style.opacity = "0.5";
+        document.getElementById("order_c_dot04").style.opacity = "0.5";
 
-      function handleImageClick(imgId) {
         document.getElementById("order_c_img_02").style.opacity = "1.0";
         document.getElementById("order_c_img_03").style.opacity = "1.0";
         document.getElementById("order_c_img_04").style.opacity = "1.0";
         document.getElementById("order_c_img_05").style.opacity = "1.0";
 
         document.getElementById(imgId).style.opacity = "0.5";
+        document.getElementById(dotId).style.opacity = "1.0";
       }
     </script>
-    <script src="./js/jquery-3.7.1.min.js"></script>
-    <script src="./owlcarousel/owl.carousel.min.js"></script>
+
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
@@ -773,13 +767,10 @@
     </script>
 
     <!--Plugins-->
-    <script src="abtus.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/split-type"></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
-
-    
 
     <script>
       ScrollReveal({
@@ -815,6 +806,10 @@
       ScrollReveal().reveal(".order_down_sma", { delay: -50, origin: "left" });
       ScrollReveal().reveal(".order_down_mid", { delay: 40, origin: "left" });
       ScrollReveal().reveal(".order_down_big", { delay: 90, origin: "right" });
+      ScrollReveal().reveal(".order_yel_cir_big", {
+        delay: 90,
+        origin: "right",
+      });
     </script>
 
     <script>
@@ -842,6 +837,14 @@
       ScrollReveal().reveal(".order_yel_cir01", {
         delay: 90,
         origin: "right",
+      });
+    </script>
+    <script>
+      $("#menu_icon").click(function () {
+        $(".menu").css("visibility", "visible");
+      });
+      $("#close_icon").click(function () {
+        $(".menu").css("visibility", "hidden");
       });
     </script>
   </body>
