@@ -2,7 +2,7 @@ body {
   font-family: "Microsoft JhengHei", "微軟正黑體", "Microsoft YaHei", sans-serif,
     -apple-system, "BlinkMacSystemFont", sans-serif;
   margin: 0;
-  width: 100vw;
+  width: 100%;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
 }
