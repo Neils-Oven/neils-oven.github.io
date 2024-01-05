@@ -9,9 +9,9 @@ body {
   display: flex;
   flex-direction: row;
   scale: 0.75;
-  margin-left: 190px;
-  margin-top: 120px;
-  margin-bottom: -120px;
+  margin-left: 50px;
+  margin-top: 125px;
+  margin-bottom: -79px;
 }
 .intro_puff {
   margin-right: 23px;
@@ -332,7 +332,7 @@ body {
   scale: 0.75;
   margin-top: 50px;
   margin-bottom: -150px;
-  margin-left: -90px;
+  margin-left: -360px;
 }
 .intro_strw_milk_item_name_eng {
   color: #1f1f1f;
@@ -512,6 +512,8 @@ body {
   display: flex;
   flex-direction: column; /* 设置主轴方向为垂直方向 */
   align-items: center; /* 在交叉轴上居中对齐 */
+  margin-top: 50px;
+  /* width: 20px; */
 }
 .intro_li_dot02 {
   margin-top: 53px;
