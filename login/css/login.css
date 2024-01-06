@@ -3,129 +3,185 @@ body {
 }
 
 /* nav start */
-.right_bar {
+.homepage_header {
+  width: 100%;
+  height: 120px;
+  padding: 25px;
+      margin-top: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  margin-top: -110px;
 }
-
-.top-logo {
+.homepage_hamburger {
+  width: 10%;
+  height: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  align-items: center;
+  position: relative;
+}
+.homepage_space {
+  width: 10%;
+  height: 100%;
 }
 
-.top-logo img {
-  height: 130px;
+.index {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+.homepage_nav {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage_nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.homepage_nav li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.homepage_nav li img {
+  width: 55%;
+  margin-top: 70px;
+}
+.homepage_icons {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon {
-  color: #505050;
-  margin-right: -48px;
-  margin-bottom: 5px;
+.homepage_member {
+  width: 20%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+}
+.homepage_member a {
+width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.member_icon {
-  fill: #505050;
+.homepage_member a img {
+  height: 30px;
 }
+.homepage_member img {
+  position: absolute;
 
-.cart_icon {
-  fill: #505050;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
-
-.member_icon:hover {
-  color: #ff9b25;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in;
-  transition-delay: 0ms;
-}
-
-.cart_icon:hover {
-  fill: #ff9b25;
-  color: #ff9b25;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in;
-  transition-delay: 0ms;
-}
-
-svg {
-  margin-right: 22px;
-}
-
-.Search {
-  margin-right: 50px;
-}
-
-.Search p {
-  color: #1f1f1f;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.1px;
-}
-
-.Search input {
-  background: url(../img/search_icon.svg) no-repeat;
-  background-position: left;
-  background-origin: content-box;
-  text-indent: 15px;
-  height: 15px;
-  padding-left: 17px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  width: 100px;
-  height: 45px;
-  border-radius: 60px;
-  border: 3px solid #ffe7ab;
-  background-color: #fffde6;
-}
-
-.Search input:focus {
-  background: url(../img/search_icon.svg) no-repeat;
-  background-size: 0px;
-  outline: none;
-  border: 3px solid #ffe7ab;
-  background-color: #fff;
-  text-indent: 0px;
-}
-
-.Search input:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-
-.Search input:focus:-moz-placeholder {
-  color: transparent;
-}
-
-.Search input:focus::-moz-placeholder {
-  color: transparent;
-}
-
-.Search input:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-input:-webkit-autofill {
-  -webkit-text-fill-color: #1f1f1f;
-  background-color: #fff;
-  transition: background-color 50000s ease-in-out 0s;
-}
-
-.Search ::placeholder {
-  color: #7d7d7d;
-  padding-left: 10px;
-  letter-spacing: 1.1px;
-  display: inline;
-  font-weight: bold;
-  color: #ff9b25;
-}
-
-.Search:focus ::placeholder {
+.homepage_member img:last-child:hover {
   opacity: 0;
 }
+.homepage_shoppingcar {
+  width: 20%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage_shoppingcar a {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+}
 
+.homepage_shoppingcar a img {
+  height: 30px;
+}
+.homepage_shoppingcar img {
+  position: absolute;
+
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.homepage_shoppingcar img:last-child:hover {
+  opacity: 0;
+}
+.homepage_searchbar {
+width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.homepage_search {
+  display: flex;
+  align-items: center;
+width: 80%;
+    height: 60%;
+  padding: 0px 20px 0px 15px;
+  border-radius: 50px;
+  border: 2px solid #ffe7ab;
+  background-color: #fffde6;
+}
+.homepage_search img {
+  width: 20px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+}
+.homepage_search input {
+  width: calc(100px - 50px);
+  margin: 0 0 0 5px;
+  padding: 0;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+      font-weight: 400;
+    letter-spacing: 2px;
+}
+::placeholder {
+  color: #ff9b25;
+  font-weight: 1000px;
+}
+input:focus {
+  outline: none;
+  background-color: transparent;
+}
+input:focus::placeholder {
+  transition-duration: 0.3s;
+  opacity: 0;
+  background-color: transparent;
+}
+.search_white {
+  background-color: #ffffff;
+  transition-duration: 0.3s;
+}
+.search_orange {
+  background-color: #fffde6;
+  transition-duration: 0.3s;
+}
 .login-title {
   color: #1f1f1f;
   display: flex;
@@ -280,7 +336,6 @@ button.login-btn:hover {
 /* footer start */
 
 .Footer {
-  margin-top: -100px;
   height: 500px;
   width: auto;
   background-color: #f0f0f0;
@@ -288,8 +343,8 @@ button.login-btn:hover {
 
 .footer {
   padding-top: 90px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 180px;
+  margin-right: 180px;
   display: flex;
   justify-content: space-between;
 }
@@ -319,24 +374,24 @@ button.login-btn:hover {
 .ftr-menu {
   display: flex;
   align-items: flex-start;
-  margin-top: 80px;
+  margin-top: 40px;
   flex-direction: row;
 }
 
 .ftr-menu h3 {
   color: #1f1f1f;
-  font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-size: 20px;
   padding-bottom: 25px;
+  font-weight: 500;
 }
 
 .ftr-menu p {
   margin-top: 20px;
   color: #505050;
-  font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 400;
+  
+  
 }
 
 .row-2 {
@@ -365,10 +420,10 @@ button.login-btn:hover {
 }
 
 .copyright p {
+  font-family: "Microsoft JhengHei";
   font-size: 13px;
   letter-spacing: 2.5px;
   font-weight: bold;
   color: #505050;
 }
-
 /* footer end */
