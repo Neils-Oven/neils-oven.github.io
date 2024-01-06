@@ -333,10 +333,13 @@ a {
 .item_gif {
   width: 125%;
   scale: 1;
-  margin-left: -200px;
   position: relative;
-  top: -100px;
+  top: -1000px;
 }
+.item_gif_footer {
+  height: 0;
+}
+  
 .item_all_container {
   scale: 0.75;
   margin-top: -450px;
