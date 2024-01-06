@@ -20,3 +20,9 @@ $("#menu_icon").click(function () {
 $("#close_icon").click(function () {
   $(".menu").css("visibility", "hidden");
 });
+$(".goTop").click(function () {
+  $(this).addClass("rotategotop");
+  setTimeout(function () {
+    $(".goTop").removeClass("rotategotop");
+  }, 800);
+});
