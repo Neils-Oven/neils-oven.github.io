@@ -58,6 +58,18 @@ body {
   width: 55%;
   margin-top: 70px;
 }
+
+.homepage_nav li a {
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;}
+.homepage_nav li :hover {
+  color: #ff9b25;
+  transition-duration: 0.3s;
+}
 .homepage_icons {
   width: 20%;
   height: 100%;
