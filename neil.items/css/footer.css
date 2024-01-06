@@ -1,78 +1,91 @@
-<div class="Footer">
-      <div class="footer">
-        <div class="ftr-left">
-          <a href="#"><img src="./homepage_img/img/logo.svg" /></a>
-          <div class="Media">
-            <ul class="media">
-              <li>
-                <a href="https://www.easycard.com.tw/new?cls=1&id=1703557071"
-                  ><img
-                    src="./homepage_img/img/facebook.svg"
-                    id="facebook"
-                    class="facebook"
-                /></a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=biMn4YC5qCI&t=22s"
-                  ><img src="./homepage_img/img/ins.svg" id="ins" class="ins"
-                /></a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=pbQQAwSQUX4&t=1s"
-                  ><img
-                    src="./homepage_img/img/line.svg"
-                    id="line"
-                    class="line"
-                /></a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=i6d3K6ln-d4"
-                  ><img
-                    src="./homepage_img/img/youtube.svg"
-                    id="youtube"
-                    class="youtube"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="right">
-          <div class="ftr-right">
-            <div class="ftr-menu">
-              <div class="row-1">
-                <a href="https://neils-oven.github.io/neils.offer/offer.html"
-                  ><h3>最新消息</h3></a
-                >
-                <a
-                  href="https://neils-oven.github.io/neils.offer/offer.html#Festival_Info"
-                  ><p>節慶消息</p></a
-                >
-                <a
-                  href="https://neils-oven.github.io/neils.offer/offer.html#new"
-                  ><p>新品上市</p></a
-                >
-              </div>
-              <div class="row-2">
-                <a href="https://neils-oven.github.io/aboutus/abtus.html"
-                  ><h3>關於尼爾</h3></a
-                >
-                <a href="https://neils-oven.github.io/aboutus/abtus.html#story"
-                  ><p>品牌故事</p></a
-                >
-                <a href="https://neils-oven.github.io/aboutus/abtus.html#store"
-                  ><p>門市據點</p></a
-                >
-              </div>
-              <div class="row-3">
-                <a href="https://neils-oven.github.io/neil.items/items.html"
-                  ><h3>全部商品</h3></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="copyright">
-            <p>尼爾蛋糕股份有限公司 統一編號20040614</p>
-          </div>
-        </div>
-      </div>
-    </div>
+.Footer {
+  height: 500px;
+  width: auto;
+  background-color: #f0f0f0;
+}
+
+.footer {
+  padding-top: 90px;
+  margin-left: 180px;
+  margin-right: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.media {
+  margin-top: 170px;
+  margin-left: -20px;
+  display: flex;
+}
+
+.media a:hover {
+  opacity: 50%;
+  transition-property: all;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.media img {
+  width: 25px;
+  margin-inline: 25px;
+}
+
+.ftr-right {
+  display: flex;
+}
+
+.ftr-menu {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+  flex-direction: row;
+}
+
+.ftr-menu h3 {
+  color: #1f1f1f;
+  font-size: 20px;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+
+.ftr-menu p {
+  margin-top: 20px;
+  color: #505050;
+  font-size: 20px;
+  font-weight: 400;
+  
+  
+}
+
+.row-2 {
+  margin-inline: 130px;
+}
+
+.ftr-menu h3:hover {
+  opacity: 60%;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.ftr-menu p:hover {
+  opacity: 60%;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 140px;
+  justify-content: flex-end;
+}
+
+.copyright p {
+  font-family: "Microsoft JhengHei";
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  color: #505050;
+}
