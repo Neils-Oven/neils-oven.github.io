@@ -1,7 +1,7 @@
 .homepage_header {
 width: 100%;
     height: 160px;
-    padding: 45px 25px 40px 25px;
+    padding: 45px 43px 46px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,6 +130,8 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+        padding-left: 0px;
+    margin-bottom: 0px;
 }
 .hamburger_newsli li {
   display: flex;
@@ -172,6 +174,8 @@ width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+        padding-left: 0px;
+    margin-bottom: 0px;
 }
 .hamburger_about li {
   display: flex;
@@ -213,6 +217,8 @@ width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+        padding-left: 0px;
+    margin-bottom: 0px;
 }
 
 .hamburger_product li {
@@ -258,6 +264,8 @@ width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+        padding-left: 0px;
+    margin-bottom: 0px;
 }
 .hamburger_all li {
   display: flex;
@@ -303,6 +311,8 @@ width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+        padding-left: 0px;
+    margin-bottom: 0px;
 }
 .homepage_nav li {
   width: 100%;
