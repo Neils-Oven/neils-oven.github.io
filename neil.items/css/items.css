@@ -390,7 +390,7 @@ a {
   content: none;
 }
 .homepage_header {
-  margin-left: -20px;
+  margin-left: 0px;
 }
 .news-submenu {
   display: flex;
