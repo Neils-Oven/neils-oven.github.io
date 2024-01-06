@@ -20,11 +20,10 @@ ul {
   margin-bottom: 0rem;
 }
 a {
-  text-decoration: none;
   color: #1f1f1f;
-  font-size: 22px;
-  font-weight: 1000;
-  letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: 1000;
+    letter-spacing: 2px;
 }
 /*header*/
 .homepage_header {
@@ -548,8 +547,8 @@ p.price {
 }
 
 .Item-1 a {
-  padding-left: 48px;
-  text-decoration: underline;
+padding-left: 39px;
+    text-decoration: underline;
 }
 
 .Item-1 a:hover {
@@ -762,6 +761,7 @@ p.item-price {
 
 .add-btn img {
   width: 25px;
+    margin-bottom: 4px;
 }
 
 /* Footer Starts*/
