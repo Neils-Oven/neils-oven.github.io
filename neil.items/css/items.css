@@ -412,10 +412,7 @@ body {
 .item_title_all_card_container {
   margin-top: -150px;
 }
-.item_gif_footer {
-  margin-top: -800px;
-}
-.item_goTop {
+.goTop {
   position: fixed;
   right: 100px;
   bottom: 80px;
@@ -423,10 +420,14 @@ body {
   cursor: pointer;
   rotate: 180deg;
 }
-.item_goTop a {
-  text-decoration: none;
-  color: #1f1f1f;
-  font-size: 22px;
-  font-weight: 1000;
-  letter-spacing: 5px;
+.goTop.rotategotop {
+  animation: rotategotop 0.8s;
+}
+@keyframes rotategotop {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
 }
