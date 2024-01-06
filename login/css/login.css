@@ -455,7 +455,7 @@ width: 80%;
       font-weight: 400;
     letter-spacing: 2px;
 }
-::placeholder {
+.HomepageSearch_input::placeholder {
   color: #ff9b25;
   font-weight: 1000px;
 }
