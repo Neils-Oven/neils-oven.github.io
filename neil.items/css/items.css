@@ -5,6 +5,13 @@ body {
   font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 22px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+}
 .item_all_item_title {
   display: flex;
   flex-direction: row;
