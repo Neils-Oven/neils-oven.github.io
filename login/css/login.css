@@ -454,10 +454,13 @@ width: 80%;
   font-size: 18px;
       font-weight: 400;
     letter-spacing: 2px;
+  
 }
 .HomepageSearch_input::placeholder {
   color: #ff9b25;
   font-weight: 1000px;
+  display: flex;
+    justify-content: flex-start;
 }
 input:focus {
   outline: none;
