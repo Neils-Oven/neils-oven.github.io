@@ -9,6 +9,9 @@ body {
 .order_all_container {
   padding-left: 250px;
 }
+.order_carousel_int {
+  margin-left: -50px;
+}
 .order_gif_bg {
   position: relative;
   top: 95px;
