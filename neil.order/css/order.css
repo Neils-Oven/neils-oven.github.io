@@ -11,7 +11,7 @@ body {
 }
 .order_gif_bg {
   position: relative;
-  top: 90px;
+  top: 95px;
 }
 .order_title_container {
   display: flex;
@@ -683,7 +683,7 @@ body {
 .order_gif {
   background-image: url("../img/商品詳情動畫背景.png");
   position: relative;
-  top: 90px;
+  top: 95px;
 }
 
 .order_bear_background_image {
@@ -692,6 +692,8 @@ body {
 .order_bear_animate_gif {
   margin-top: -1800px;
   margin-bottom: 650px;
+  position: relative;
+  top: 95px;
 }
 
 .accordion {
