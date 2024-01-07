@@ -4,7 +4,9 @@ body {
   font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
   overflow-x: hidden;
 }
-
+.intro_carousel_01 {
+  margin-left: -200px;
+}
 .intro_title_cintainer {
   display: flex;
   flex-direction: row;
