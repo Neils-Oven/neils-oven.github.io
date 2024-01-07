@@ -1,5 +1,4 @@
 .Footer {
-  margin-top: -100px;
   height: 500px;
   width: auto;
   background-color: #f0f0f0;
@@ -7,13 +6,13 @@
 
 .footer {
   padding-top: 90px;
-  margin-left: 120px;
-  margin-right: 150px;
+  margin-left: 180px;
+  margin-right: 180px;
   display: flex;
   justify-content: space-between;
 }
 .media {
-  margin-top: 120px;
+  margin-top: 170px;
   margin-left: -20px;
   display: flex;
 }
@@ -33,31 +32,29 @@
 
 .ftr-right {
   display: flex;
-  text-decoration: none;
 }
 
 .ftr-menu {
   display: flex;
   align-items: flex-start;
-  margin-top: 80px;
+  margin-top: 40px;
   flex-direction: row;
-  text-decoration: none;
 }
 
 .ftr-menu h3 {
   color: #1f1f1f;
-  font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-size: 20px;
   padding-bottom: 25px;
+  font-weight: 500;
 }
 
 .ftr-menu p {
   margin-top: 20px;
   color: #505050;
-  font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 400;
+  
+  
 }
 
 .row-2 {
@@ -81,52 +78,34 @@
 .copyright {
   display: flex;
   align-items: flex-end;
-  margin-top: 96px;
+  margin-top: 140px;
   justify-content: flex-end;
 }
 
 .copyright p {
+  font-family: "Microsoft JhengHei";
   font-size: 13px;
   letter-spacing: 2.5px;
   font-weight: bold;
   color: #505050;
 }
-.order_footer_neil.logo {
-  margin-left: 30px;
+/*go top*/
+.goTop {
+  position: fixed;
+  right: 100px;
+  bottom: 80px;
+  z-index: 7;
+  cursor: pointer;
+  rotate: 180deg;
 }
-.order_footer_neil_logo {
-  margin-left: -10px;
+.goTop.rotategotop {
+  animation: rotategotop 0.8s;
 }
-.ftr-left {
-  margin-left: 30px;
-}
-.row-1 h3 {
-  color: #1f1f1f;
-  text-align: center;
-  font-family: Microsoft JhengHei;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 3px;
-}
-.row-2 h3 {
-  color: #1f1f1f;
-  text-align: center;
-  font-family: Microsoft JhengHei;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 3px;
-}
-.row-3 h3 {
-  color: #1f1f1f;
-  text-align: center;
-  font-family: Microsoft JhengHei;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 3px;
+@keyframes rotategotop {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
 }
