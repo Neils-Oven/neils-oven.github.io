@@ -46,9 +46,3 @@ $(document).ready(function () {
     },
   });
 });
-$(".goTop").click(function () {
-  $(this).addClass("rotategotop");
-  setTimeout(function () {
-    $(".goTop").removeClass("rotategotop");
-  }, 800);
-});
