@@ -7,6 +7,9 @@ body {
 .intro_carousel_01 {
   margin-left: -230px;
 }
+.intro_carousel_02{
+  margin-left: -230px;
+}
 .intro_title_cintainer {
   display: flex;
   flex-direction: row;
