@@ -9,6 +9,8 @@ body {
 }
 .intro_carousel_02{
   margin-left: -300px;
+  position: relative;
+  right: 30px;
 }
 .intro_title_cintainer {
   display: flex;
