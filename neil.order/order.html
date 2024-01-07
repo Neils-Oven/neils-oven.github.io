@@ -944,5 +944,13 @@
         $(".menu").css("visibility", "hidden");
       });
     </script>
+     <script>
+      $(".jq-goTop").click(function (e) {
+        e.preventDefault();
+        $("html,body").animate({
+          scrollTop: 0,
+        });
+      });
+    </script>
   </body>
 </html>
