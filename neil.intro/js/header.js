@@ -46,3 +46,10 @@ $(document).ready(function () {
     },
   });
 });
+// gotop
+$(".goTop").click(function () {
+  $(this).addClass("rotategotop");
+  setTimeout(function () {
+    $(".goTop").removeClass("rotategotop");
+  }, 800);
+});
