@@ -319,7 +319,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 400;}
+  font-weight: 400;
+    letter-spacing: 5px;}
 .homepage_nav li :hover {
   color: #ff9b25;
   transition-duration: 0.3s;
